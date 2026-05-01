@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(python -c \"from sklearn.neural_network import MLPClassifier; help\\(MLPClassifier.__init__\\)\")",
-      "Bash(python -c \"from sklearn.decomposition import PCA; from sklearn.preprocessing import StandardScaler; from sklearn.linear_model import LogisticRegression; from sklearn.model_selection import train_test_split; print\\('all core imports OK'\\)\")"
+      "Bash(python -c \"from sklearn.decomposition import PCA; from sklearn.preprocessing import StandardScaler; from sklearn.linear_model import LogisticRegression; from sklearn.model_selection import train_test_split; print\\('all core imports OK'\\)\")",
+      "Bash(python -c \"import json; f=open\\('e:/GitHub/ITCS3156-Final-Project/diabetes_prediction.ipynb','r'\\); content=f.read\\(\\); f.close\\(\\); print\\(repr\\(content[:500]\\)\\)\")",
+      "Bash(python -c ' *)"
     ]
   }
 }
