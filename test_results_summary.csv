@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC
+LR Vanilla,0.8502,0.536,0.1525,0.2375,0.807
+LR Balanced,0.7134,0.3175,0.7603,0.4479,0.8074
+MLP_ArchB_64_32,0.853,0.578,0.1436,0.23,0.8139
